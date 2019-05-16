@@ -1,0 +1,95 @@
+body {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    background: url(http://www.cashadvance6online.com/data/archive/img/3598386428.jpeg)
+    
+}
+.maincont {
+    background: url(http://www.cashadvance6online.com/data/archive/img/168396373.jpeg)
+}
+
+
+h1 {
+    font-family: 'Akronim', cursive;
+    font-size: 8em;
+    text-align: center;
+    background: url(https://freefrontend.com/assets/img/css-background-patterns/css-lattice-pattern.png);
+    color: aqua;
+}
+
+h2 {
+    color: white;
+    text-decoration: underline;
+}
+
+h3 {
+    color: red;
+}
+
+h4 {
+    color: white;
+}
+
+p {
+    font-family: 'Macondo Swash Caps', cursive;
+    text-align: justify;
+    color: white;
+}
+
+footer {
+    color: grey;
+    text-align: center;
+}
+
+.story1img {
+    float: left;
+    width: 450px;
+    height: 300px;
+    padding: 0px 10px 5px 0px;
+}
+
+.story2img {
+    float: right;
+    width: 450px;
+    height: 300px;
+    padding: 10px 0px 0px 10px;
+}
+
+.story3img {
+    float: left;
+    padding-top: 20px;
+    width: 450px;
+    height: 300px;
+    padding: 0px 10px 5px 0px;
+}
+
+li {
+    color: white;
+}
+
+.stories {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.votesection {
+    border: 2px dotted white;
+}
+
+.innervotesection {
+    display: inline-block;
+}
+
+.storyvote {
+float: left;
+}
+
+.checkboxes {
+    float: left;
+}
+
+.buttons {
+    margin-left: 40px;
+}
