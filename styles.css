@@ -26,6 +26,7 @@ h2 {
 
 h3 {
     color: red;
+    margin: 0;
 }
 
 h4 {
@@ -65,6 +66,11 @@ footer {
     padding: 0px 10px 5px 0px;
 }
 
+.arrow {
+    width: 20px;
+    height: 20px;
+}
+
 li {
     color: white;
 }
@@ -83,7 +89,7 @@ li {
 }
 
 .storyvote {
-float: left;
+    float: left;
 }
 
 .checkboxes {
@@ -92,4 +98,23 @@ float: left;
 
 .buttons {
     margin-left: 40px;
+}
+
+.externallink {
+    color: white;
+}
+
+.calc {
+    text-align: center;
+}
+
+.top {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Modak', cursive;
+    font-size: 1.5em;
+}
+
+.top1 {
+    color: white;
 }
