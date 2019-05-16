@@ -145,9 +145,9 @@
                             <div class="storyvote">
                                 <h4>Pick a story</h4>
                                 <ol>
-                                    <li><input type="radio" name="vote" value="story1">Cat ipsum dolor</li>
-                                    <li><input type="radio" name="vote" value="story2">When owners are asleep</li>
-                                    <li><input type="radio" name="vote" value="story3">Swipe at owner's legs</li>
+                                    <li><input id="r1" type="radio" name="vote" value="story1">Cat ipsum dolor</li>
+                                    <li><input id="r2" type="radio" name="vote" value="story2">When owners are asleep</li>
+                                    <li><input id="r3" type="radio" name="vote" value="story3">Swipe at owner's legs</li>
                                 </ol>
                             </div>
                             <div class="checkboxes">
@@ -159,7 +159,7 @@
                                 </ul>
                             </div>
                             <div class="buttons">
-                                <button id="vote" type="submit">Vote</button>
+                                <button id="vote" type="submit" onclick="voteButton()">Vote</button>
                                 <button id="res" type="reset">Reset</button>
                             </div>
                     </div>
